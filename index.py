@@ -11,7 +11,7 @@ import os
 # Flask Setup
 #################################################
 
-UPLOAD_FOLDER = '/workspaces/ml-test/static/'
+UPLOAD_FOLDER = '/workspaces/hackathon-project/static/'
 
 app = Flask(__name__)                    
 app.secret_key = '8662747133'
@@ -38,7 +38,7 @@ def submit_image():
         # Return results predictive data
           if file:
             filename = secure_filename(file.filename)
-            file.save(os.path.join('/workspaces/ml-test/static/', filename))
+            file.save(os.path.join('/workspaces/hackathon-project/static/', filename))
             getPrediction(filename)
             answer, probability_results, filename = getPrediction(filename)
             flash(answer)
