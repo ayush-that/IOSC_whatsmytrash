@@ -47,7 +47,7 @@
 						{% if messages %}
 							Waste Category: {{ messages[0] }}
 						<br>
-							Probability: {{ messages[1] }}
+							Probability: {{ (messages[1]|float*100) }}%
 							<img src="{{ url_for('static', filename=messages[2])}}" width="200"> 
 						{% endif %}
 						 {% endwith %}
