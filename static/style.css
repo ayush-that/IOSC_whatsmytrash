@@ -1,0 +1,13 @@
+.card-group .card-img-top {
+  width: 100%; /* or any size you want */
+  height: 200px; /* or any size you want */
+  object-fit: cover;
+}
+
+body {
+  font-family: "Times New Roman", sans-serif;
+}
+
+p {
+  font-family: "Times New Roman", sans-serif;
+}
