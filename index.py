@@ -21,7 +21,6 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 def index():
     return render_template('index.html')
 
-
 @app.route("/", methods = ['POST']) #/file
 # Our function for pushing the image to the classifier model
 def submit_image():
