@@ -21,16 +21,26 @@
       href="{{ url_for('static', filename='style.css') }}"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      href="Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
     />
-
     <link rel="preconnect" href="https://fonts.gstatic.com" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/M%C3%BClltonne_%28Dustbin%29.png/640px-M%C3%BClltonne_%28Dustbin%29.png"
+            alt="Brand Image"
+            height="30"
+            class="d-inline-block align-top"
+          />
+          <span class="ms-0"><b>whatsmytrash</b></span>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -45,13 +55,11 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a
+                class="nav-link"
+                href="https://github.com/ayush-that/IOSC_whatsmytrash"
+                >Source</a
+              >
             </li>
           </ul>
         </div>
@@ -61,10 +69,29 @@
     <div class="container py-5">
       <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-          <h1 class="display-5 mb-3 guide-title">Virtual Composting Guide</h1>
-          <p class="lead">Check if your items are compostable!</p>
+          <h1 class="display-5 mb-3 guide-title">what's your trash??? 💀💩</h1>
+          <p class="lead">
+            <strong
+              ><small
+                ><small>
+                  Do you want to know if your garbage is organic or recyclable?
+                  Take a picture and let's find out together!<br />क्या आप जानना
+                  चाहते हैं कि आपका कचरा जैविक है या पुनर्चक्रण योग्य? एक तस्वीर
+                  लें और आइए मिलकर पता लगाएं!</small
+                ></small
+              ></strong
+            >
+          </p>
         </div>
       </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Garbage_dump_site.svg/640px-Garbage_dump_site.svg.png"
+        class="img-fluid"
+        alt="Responsive image"
+      />
     </div>
 
     <div class="container py-5">
@@ -99,7 +126,7 @@
                           type="submit"
                           class="btn btn-primary"
                           value="Submit"
-                          style="color: white"
+                          style="color: black; background-color: white"
                         />
                       </p>
                     </form>
@@ -137,27 +164,12 @@
         </div>
       </div>
     </div>
-
-    <div class="container py-5">
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <h2 class="mb-4">Get Started with Composting</h2>
-          <p class="lead">
-            Ready to start your composting journey? Follow our step-by-step
-            guide to set up and maintain a successful composting system at home.
-          </p>
-          <a href="composting-guide.html" class="btn btn-primary btn-lg"
-            >View Composting Guide</a
-          >
-        </div>
-      </div>
-    </div>
   </body>
 
   <!-- Footer Section -->
   <footer class="footer bg-light mt-auto py-3">
     <div class="container text-center">
-      <span class="text-muted">Made with 💚 & a bakchod mind</span>
+      <span class="text-muted">Made with 🤍 by Ayush & Swarnim</span>
     </div>
   </footer>
   <script src="{{ url_for('static', filename='main.js') }}"></script>

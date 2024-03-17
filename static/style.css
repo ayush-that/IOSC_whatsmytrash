@@ -5,9 +5,40 @@
 }
 
 body {
-  font-family: "Times New Roman", sans-serif;
+  font-family: "Mona Sans", sans-serif;
+  background: linear-gradient(to bottom right, #272822, #383830);
+  color: whitesmoke;
 }
 
-p {
-  font-family: "Times New Roman", sans-serif;
+h1.display-5 {
+  font-family: "Mona Sans", sans-serif;
+  font-weight: 800; /* Extra Bold */
+}
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("Mona-Sans.woff2") format("woff2 supports variations"),
+    url("Mona-Sans.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+.card {
+  background-color: #333530;
+}
+
+.navbar,
+.footer {
+  background-color: #272822 !important;
+  color: white !important;
+}
+
+.navbar *,
+.footer * {
+  color: white !important;
+}
+
+.submit-btn {
+  background-color: #272822; /* change this to your desired color */
+  color: white; /* change this to your desired text color */
 }
