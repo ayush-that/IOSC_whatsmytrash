@@ -38,7 +38,6 @@ python index.py
 
 <table>
   <tr>
-    <td><img src="https://github-production-user-asset-6210df.s3.amazonaws.com/110257939/313469879-a0bcb70d-45b9-4420-acc5-8eb8f3c8dedd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240317%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240317T120916Z&X-Amz-Expires=300&X-Amz-Signature=80ab1f78deff4aa164d13f9a9ea3e7581f403a8ef1ec3ca4745b41fd0693d117&X-Amz-SignedHeaders=host&actor_id=110257939&key_id=0&repo_id=763110468" alt="alt-text" width="300"></td>
     <td><img src="https://github.com/ayush-that/IOSC_whatsmytrash/assets/110257939/dbb0fbe6-5580-4a20-9fe5-e20e2b284d57" alt="alt-text" width="300"></td>
     <td><img src="https://github.com/ayush-that/IOSC_whatsmytrash/assets/110257939/80784d27-a33e-432b-a925-49a33ca47cde" alt="alt-text" width="300"></td>
   </tr>
